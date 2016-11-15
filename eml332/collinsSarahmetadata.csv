@@ -1,0 +1,22 @@
+attributeName,formatString,unit,numberType,definition,attributeDefinition,columnClasses,minimum,maximum
+lagoslakeid,,,,Unique identifier for each lake from the LAGOS database,Unique identifier for each lake from the LAGOS database,character,,
+hu4_zoneid,,,,Identifier for HUC 4 watershed unit where the sampled lake is located,Identifier for HUC 4 watershed unit where the sampled lake is located,character,,
+Latitude,,degree,real,,Location of sampled lake,numeric,36.490608,48.164805
+Longitude,,degree,real,,Location of sampled lake,numeric,-96.33028,-67.152203
+State,,,,Name of the state where the sampled lake is located,Name of the state where the sampled lake is located,character,,
+NO3deposition_hu12,,milligramsPerLiter,real,,Mean NO3 deposition from 2005 for the HUC12 watershed where the sampled lake is located,numeric,0,20
+X30yrTemp_hu12,,celsius,real,,30-year normal mean temperature for the HUC12 watershed where the sample lake is located,numeric,0,20
+X30yrPrecip_hu12,,millimeter,real,,30-year normal mean precipitation for the HUC12 watershed where the sample lake is located,numeric,0,1500
+Baseflow_hu12,,dimensionless,real,,Mean value of percent of streamflow that can be attributed to ground-water discharge into streams,numeric,0,100
+Agriculture_hu4,,dimensionless,real,,Mean percentage of agricultural land use for the HUC4 watershed where the sampled lake is located,numeric,0,100
+ln_TNTP,,dimensionless,real,,Natural log of the median TN:TP ratio for the sampled lake,numeric,0,10
+ln_TN,,microgramsPerLiter,real,,Natural log of the median TN concentration for the sampled lake,numeric,0,10
+ln_TP,,microgramsPerLiter,real,,Natural log of the median TP concentration for the sampled lake,numeric,0,10
+ln_maxdepth,,meter,real,,Natural log of the maximum lake depth for the sampled lake,numeric,-10,10
+ln_Urban_iws,,dimensionless,real,,Natural log of the percent urban land use in the individual watershed of the sampled lake,numeric,-10,10
+ln_Agriculture_iws,,dimensionless,real,,Natural log of the percent agricultural land use in the individual watershed of the sampled lake,numeric,-10,10
+ln_Forest_iws,,dimensionless,real,,Natural log of the percent forest land use in the individual watershed of the sampled lake,numeric,-10,10
+ln_Pasture_iws,,dimensionless,real,,Natural log of the percent pasture agriculture land use in the individual watershed of the sampled lake,numeric,-10,10
+ln_RowCrop_iws,,dimensionless,real,,Natural log of the percent row crop agriculture land use in the individual watershed of the sampled lake,numeric,-10,10
+ln_ResTime_lawa,,dimensionless,real,,"Natural log of an estimate for residence time, the ratio of the area of a lake to the area of its watershed",numeric,-10,10
+Region,,,,Identifier for regions used in Collins et al In Review manuscript.  Lakes in the Northeast and Midwest regions are identified and lakes that are part of neither region do not have data for this column,Identifier for regions used in Collins et al In Review manuscript.  Lakes in the Northeast and Midwest regions are identified and lakes that are part of neither region do not have data for this column,character,,
